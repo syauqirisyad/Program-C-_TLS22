@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char nama[40];
+    char kelas[4];
+    float nilai_1, nilai_2, nilai_3, nilai_4, total, rata;
+    cout<<"Nama     : Syauqi Risyad Yusuf\n";
+    cout<<"NIM      : 22/505834/TK/55381\n";
+    cout<<"Kelompok : Riemann\n";
+    cout<<".............................................................\n";
+    cout<<"PROGRAM MENGHITUNG NILAI RATA-RATA UJIAN NASIONAL SISWA SMP\n";
+    
+    cout<<"Masukkan Nama        : ";
+    cin>>nama;
+    cout<<"Masukkan Kelas       : ";
+    cin>>kelas;
+    cout<<" \n";
+    
+    cout<<"Masukkan Nilai Bahasa Indonesia  : ";
+    cin>>nilai_1;
+    cout<<"Masukkan Nilai Matematika        : ";
+    cin>>nilai_2;
+    cout<<"Masukkan Nilai IPA               : ";
+    cin>>nilai_3;
+    cout<<"Masukkan Nilai Bahasa Inggris    : ";
+    cin>>nilai_4;
+    cout<<".............................................................\n";
+    total=nilai_1+nilai_2+nilai_3+nilai_4;
+    cout<<"Nama Siswa               : ";
+    cout<<nama ;
+    cout<<" \n";
+    cout<<"Total Nilai              : ";
+    cout<<total;
+    cout<<" \n";
+    rata=total/4;
+    cout<<"Rata-rata Nilai Siswa    : ";
+    cout<<rata;
+    cout<<" \n";
+    
+    return 0;
+}
